@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-content',
@@ -17,7 +18,9 @@ export class ContentComponent implements OnInit {
   contentDescription: string =
     'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt non aut vero tempora iste corporis esse eos repellat laudantium, beatae adipisci, nihil iure numquam maxime vitae dolorum, dicta eveniet voluptas?';
 
-  constructor() {}
+  constructor(private route: ActivatedRoute) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.route.paramMap.subscribe((value) => console.log(value.get('id')));
+  }
 }
