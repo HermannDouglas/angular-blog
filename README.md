@@ -1,59 +1,50 @@
 # AngularBlog
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.0.
+AngularBlog é um projeto desenvolvido como parte do BootCamp Fullstack da DIO, com o objetivo de praticar conceitos fundamentais do framework Angular para construção de aplicações web modernas.
 
-## Development server
+## Sobre o Projeto
 
-To start a local development server, run:
+Este blog demonstra a criação de componentes, rotas, consumo de dados e boas práticas no desenvolvimento front-end com Angular. O projeto serve como base para estudos e experimentação de recursos do Angular.
 
-```bash
-ng serve
-```
+## Pré-requisitos
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Antes de iniciar, certifique-se de ter instalado em sua máquina:
 
-## Code scaffolding
+- [Node.js](https://nodejs.org/) (versão recomendada: 18.x ou superior)
+- [npm](https://www.npmjs.com/) (geralmente instalado junto com o Node.js)
+- [Angular CLI](https://angular.dev/tools/cli)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Instalação do Angular CLI
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Para instalar o Angular CLI globalmente, execute:
 
 ```bash
-ng generate --help
+npm install -g @angular/cli
 ```
 
-## Building
-
-To build the project run:
+Verifique a instalação com:
 
 ```bash
-ng build
+ng version
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Instalação do Projeto
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Clone este repositório e instale as dependências:
 
 ```bash
-ng test
+git clone <url-do-repositorio>
+cd angular-blog
+npm install
 ```
 
-## Running end-to-end tests
+## Ferramentas Utilizadas
 
-For end-to-end (e2e) testing, run:
+- **Angular CLI**: Ferramenta oficial para criação e gerenciamento de projetos Angular.
+- **TypeScript**: Linguagem principal utilizada no desenvolvimento Angular.
+- **Karma & Jasmine**: Testes unitários.
+- **Node.js & npm**: Ambiente de execução e gerenciamento de pacotes.
 
-```bash
-ng e2e
-```
+## Como Contribuir
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias, correções ou sugestões.
